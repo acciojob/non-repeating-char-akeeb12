@@ -21,7 +21,7 @@ for(let i = 0; i < str.length; i++)
 		}
 	}
 
-retun null;
+return null;
 }
 const input = prompt("Enter a string");
 alert(firstNonRepeatedChar(input)); 
