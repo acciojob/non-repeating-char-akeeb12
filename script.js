@@ -8,6 +8,7 @@ function firstNonRepeatedChar(str) {
 			if (frequencyMap[char]) {
 				frequencyMap[char]++;
 			}else
+			{
 				frequencyMap[char] = 1
 		}
 }
@@ -21,9 +22,9 @@ for(let i = 0; i < str.length; i++)
 	}
 
 retun null;
+}
 const input = prompt("Enter a string");
 alert(firstNonRepeatedChar(input)); 
-
 
 
 
